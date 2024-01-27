@@ -1,0 +1,43 @@
+.app-container{
+    background-color: burlywood;
+    color: brown;
+    margin:0%;
+    text-align: center;
+    padding:50px;
+    height: 100vh;
+    font-size: x-large;
+}
+
+.container{
+    padding: 50px;
+    /* margin:100px; */
+    border-radius: 10px;
+    border: 1px solid black; 
+    color:white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+h1{
+    border: 1px solid white;
+    border-radius: 100%;
+    height: 200px;
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: lightpink;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    margin:10px
+}
+.cold{
+    background-color: rgb(48, 48, 151);
+}
+.hot{
+    background-color:rgb(150, 7, 7);
+}
